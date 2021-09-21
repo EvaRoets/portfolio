@@ -1,7 +1,7 @@
 import React from "react"
 
 // import fontawesome icons
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 // import components
 import Header from "./components/Header"
