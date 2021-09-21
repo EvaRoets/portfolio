@@ -40,6 +40,11 @@ function About(props) {
                 onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie
                 van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus
                 PageMaker die versies van Lorem Ipsum bevatten.</p>
+
+            <a href="#top">
+                <FontAwesomeIcon icon="chevron-circle-up"/>
+                Let's go back to the top
+            </a>
         </div>
     )
 }

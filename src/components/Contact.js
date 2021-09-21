@@ -41,6 +41,11 @@ function Contact() {
             <a href="https://github.com/EvaRoets" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={['fab', 'github']}/>
                 https://github.com/EvaRoets</a>
+
+            <a href="#top">
+                <FontAwesomeIcon icon="chevron-circle-up"/>
+                Let's go back to the top
+            </a>
         </div>
     )
 }

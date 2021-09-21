@@ -16,9 +16,9 @@ const Header = () => {
                     <div className="line"></div>
                 </div>
                 {/*<img src={""} className="logo" alt="Logo Image" />*/}
-
+                <a name="top"></a>
                 <div className="navigation-sub">
-                    <a href="#home" class="tab nav-active">
+                    <a href="#top" class="tab nav-active">
                         <FontAwesomeIcon icon="home"/>
                         Home
                     </a>
