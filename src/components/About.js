@@ -1,14 +1,15 @@
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+// import fontawesome icons
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 function About(props) {
     return (
         <div class="about-me" id="about-me">
-            <FontAwesomeIcon icon=""/>
+            <FontAwesomeIcon icon={['far', 'user']}/>
+            <h2>About me</h2>
 
-
-            <h3>Who am I?</h3>
             <p> I started off in communication and digital marketing and got a taste for web development. On the exciting adventure
                 of learning the ropes.</p>
             <p>Wat is Lorem Ipsum?

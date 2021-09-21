@@ -5,7 +5,7 @@ const Footer = () => {
     const name = "Eva Roets"
     return (
         <>
-            <div className="footer">
+            <div className="footer sticky">
                 Copyright
                 <FontAwesomeIcon icon={['far', 'copyright']}/>
                 <script>document.write(new Date().getFullYear())</script>

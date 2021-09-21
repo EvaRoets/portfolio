@@ -1,4 +1,6 @@
 import React from "react";
+
+// import fontawesome icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Header = () => {
@@ -21,7 +23,7 @@ const Header = () => {
                         Home
                     </a>
                     <a href="#my-projects" className="tab">
-                        &lt; / &gt;
+                        <FontAwesomeIcon icon="code"/>
                         Projects
                     </a>
                     <a href="#my-skills" className="tab">
@@ -46,7 +48,10 @@ const Header = () => {
                     <div class="hero-text">
                         <h2>Hi, I'm Eva!</h2>
                         <p>and I am a junior web developer, with a passion for aesthetics.</p>
-                        <button>Contact me</button>
+                        <a href="#contact" className="button" role="button">
+                            <FontAwesomeIcon icon={['far', 'address-card']}/>
+                            Let's get in touch!
+                        </a>
                     </div>
                 </div>
             </div>
