@@ -25,6 +25,19 @@ const Header = () => {
             </div>
             {/*navbar ends*/}
 
+            <div class="hero">
+                {/*intro hero image starts*/}
+
+                <div class="hero-image" id="home">
+                    <div class="hero-text">
+                        <h1>I am Eva Roets...</h1>
+                        <p>and I am a junior web developer, with a passion for aesthetics.</p>
+                        <button>Contact me</button>
+                    </div>
+                </div>
+            </div>
+            {/*intro hero image end*/}
+
         </>
     );
 }
