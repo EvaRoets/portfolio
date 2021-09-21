@@ -1,43 +1,56 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Header = () => {
     return (
         <>
-            <div className="header">
-                <h1>My portfolio</h1>
-            </div>
-
             {/*navbar starts*/}
             <div className="navigation">
                 <div class="hamburger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
                 </div>
-                <img src={""} className="logo" alt="Logo Image" />
+                {/*<img src={""} className="logo" alt="Logo Image" />*/}
 
                 <div className="navigation-sub">
-                    <a href="#home" class="tab nav-active">Home</a>
-                    <a href="#my-projects" class="tab">My projects</a>
-                    <a href="#about-me" class="tab">About me</a>
-                    <a href="#contact" class="tab">Contact me</a>
+                    <a href="#home" class="tab nav-active">
+                        <FontAwesomeIcon icon="home"/>
+                        Home
+                    </a>
+                    <a href="#my-projects" className="tab">
+                        &lt; / &gt;
+                        Projects
+                    </a>
+                    <a href="#my-skills" className="tab">
+                        <FontAwesomeIcon icon="cogs"/>
+                        Skills
+                    </a>
+                    <a href="#about-me" class="tab">
+                        <FontAwesomeIcon icon={['far', 'user']}/>
+                        About me
+                    </a>
+                    <a href="#contact" class="tab">
+                        <FontAwesomeIcon icon={['far', 'address-card']}/>
+                        Contact
+                    </a>
                 </div>
             </div>
             {/*navbar ends*/}
 
+            {/*intro hero image starts*/}
             <div class="hero">
-                {/*intro hero image starts*/}
-
                 <div class="hero-image" id="home">
                     <div class="hero-text">
-                        <h1>I am Eva Roets...</h1>
+                        <h2>Hi, I'm Eva!</h2>
                         <p>and I am a junior web developer, with a passion for aesthetics.</p>
                         <button>Contact me</button>
                     </div>
                 </div>
             </div>
             {/*intro hero image end*/}
-
         </>
     );
 }

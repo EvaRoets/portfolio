@@ -1,6 +1,7 @@
 import './css/App.css';
 import React from "react";
 import Header from "./components/Header"
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -16,13 +17,13 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 library.add(fas, fab, far, faMobileAlt, faEnvelopeOpen, faCopy, faLinkedin, faGithub);
 
 
-
 function App() {
   return (
     <div className="App">
       <main>
         <Header/>
         <Projects />
+        <Skills/>
         <About />
         <Contact />
         <Footer />

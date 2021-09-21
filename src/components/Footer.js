@@ -1,11 +1,13 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
     const name = "Eva Roets"
     return (
         <>
             <div className="footer">
-                Copyright &copy;
+                Copyright
+                <FontAwesomeIcon icon={['far', 'copyright']}/>
                 <script>document.write(new Date().getFullYear())</script>
                 {name}
             </div>
