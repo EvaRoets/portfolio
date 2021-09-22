@@ -20,7 +20,9 @@ function Skills() {
                             <p>These are the skills and technologies I know how to use or wish to specialize in further.</p>
                         </div>
                         <Col md={{span: 8, offset: 2}} className="skills-table">
-                            <Table   hover>
+
+                            {/*TODO add icons for tech stacks*/}
+                            <Table hover>
                                 <tbody>
                                 <tr>
                                     <td>HTML/CSS</td>
