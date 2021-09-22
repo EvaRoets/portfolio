@@ -44,7 +44,7 @@ function Projects() {
                     </div>
 
 
-                    <a href="#top">
+                    <a href="#top" id="top">
                         <FontAwesomeIcon icon="chevron-circle-up"/>
                         Let's go back to the top
                     </a>

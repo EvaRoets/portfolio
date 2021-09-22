@@ -12,7 +12,18 @@
 /*    -webkit-filter: blur(8px);*/
 /*}*/
 
+FontAwesomeIcon {
+    color: greenyellow;
+    padding-top: 75px;
+}
 
+h2 {
+    padding: 25px;
+}
+
+a {
+    color: rebeccapurple;
+}
 
 
 

@@ -3,18 +3,16 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Container, Row, Col} from "react-bootstrap";
 
 
-const Footer = () => {
-    const name = "Eva Roets"
+const GoToTop = () => {
     return (
         <>
-
             <Container fluid="lg" className="footer sticky">
-                <Row className="justify-content-sm-center-center">
+                <Row>
                     <Col md={{span: 8, offset: 2}} className="text-center">
-                        Copyright
-                        <FontAwesomeIcon icon={['far', 'copyright']}/>
-                        <script>document.write(new Date().getFullYear())</script>
-                        {name}
+                        <a href="#top">
+                            <FontAwesomeIcon icon="chevron-circle-up"/>
+                            Let's go back to the top
+                        </a>
                     </Col>
                 </Row>
             </Container>
@@ -22,10 +20,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
-
-
-
-
-
-
+export default GoToTop;
