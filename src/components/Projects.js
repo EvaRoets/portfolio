@@ -15,7 +15,7 @@ function Projects() {
     return (
         <Container fluid="lg" className="my-projects" id="my-projects">
             <Row className="justify-content-sm-center-center">
-                <Col md={{span: 8, offset: 2}}>
+                <Col md={{span: 8, offset: 2}} className="text-center">
                     <FontAwesomeIcon icon="code" size="3x"/>
                     <h2>Apps I have built</h2>
                     <p> this is what I have built during my training bootcamp at BeCode</p>

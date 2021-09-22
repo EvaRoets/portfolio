@@ -16,44 +16,39 @@ const Header = () => {
                             <Nav.Item>
                                 <Nav.Link href="#top">
                                     <FontAwesomeIcon icon="home"/>
-                                    Home
+                                    &nbsp;Home
                                 </Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>
                                 <Nav.Link href="#my-projects">
                                     <FontAwesomeIcon icon="code"/>
-                                    Projects
+                                    &nbsp;Projects
                                 </Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>
                                 <Nav.Link href="#my-skills">
                                     <FontAwesomeIcon icon="cogs"/>
-                                    Skills
+                                    &nbsp;Skills
                                 </Nav.Link>
                             </Nav.Item>
 
                             <Nav.Item>
                                 <Nav.Link href="#about-me">
                                     <FontAwesomeIcon icon={['far', 'user']}/>
-                                    About me
+                                    &nbsp;About me
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link href="#contact">
                                     <FontAwesomeIcon icon={['far', 'address-card']}/>
-                                    Contact
+                                    &nbsp;Contact
                                 </Nav.Link>
                             </Nav.Item>
                         </Container>
                 </Navbar>
             </Container>
-
-
-
-
-
             {/*navbar ends*/}
 
             {/*intro hero image starts*/}

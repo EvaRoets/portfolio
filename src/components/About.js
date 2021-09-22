@@ -4,13 +4,12 @@ import React from "react"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Container, Row, Col} from "react-bootstrap";
 
-
 function About() {
     return (
 
         <Container fluid="lg" class="about-me" id="about-me">
             <Row className="justify-content-sm-center-center">
-                <Col md={{span: 8, offset: 2}}>
+                <Col md={{span: 8, offset: 2}} className="text-center">
                     <FontAwesomeIcon icon={['far', 'user']} size="3x"/>
                     <h2>About me</h2>
 

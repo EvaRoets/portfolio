@@ -9,8 +9,8 @@ function Skills() {
     return (
 
         <Container fluid="lg" className="my-skills" id="my-skills">
-            <Row className="justify-content-sm-center-center">
-                <Col md={{span: 8, offset: 2}}>
+            <Row >
+                <Col md={{span: 8, offset: 2}} className="text-center">
                     <FontAwesomeIcon icon="cogs" size="3x"/>
                     <h2>Skills & Technologies</h2>
                     <p>These are the skills and technologies I know how to use or wish to specialize in further.</p>
