@@ -18,7 +18,6 @@ import far from '@fortawesome/fontawesome-free-regular';
 import fab from '@fortawesome/fontawesome-free-brands';
 import {faMobileAlt, faEnvelopeOpen, faCopy} from '@fortawesome/free-solid-svg-icons' ;
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 library.add(fas, fab, far, faMobileAlt, faEnvelopeOpen, faCopy, faLinkedin, faGithub);
 

@@ -3,7 +3,7 @@ import React from "react"
 // import fontawesome icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Container, Row, Col} from "react-bootstrap";
-import GoToTop from "./components/GoToTop";
+import GoToTop from "./GoToTop";
 
 function Contact() {
     return (
@@ -11,7 +11,9 @@ function Contact() {
             <Container fluid="lg" className="contact" id="contact">
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 8, offset: 2}} className="text-center">
-                        <FontAwesomeIcon icon={['far', 'address-card']} size="3x"/>
+                        <div className="containerIcon">
+                            <FontAwesomeIcon icon={['far', 'address-card']} size="3x" spin  color="green"/>
+                        </div>
                         <h2>Contact</h2>
 
                         <FontAwesomeIcon icon="mobile-alt"/>
@@ -41,9 +43,6 @@ function Contact() {
             </Container>
             <GoToTop/>
         </>
-
-
-
     )
 }
 
