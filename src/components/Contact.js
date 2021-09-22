@@ -10,7 +10,7 @@ function Contact() {
         <>
             <Container fluid="lg" className="contact-container" id="contact">
                 <Row className="justify-content-sm-center-center">
-                    <Col md={{span: 8, offset: 2}} className="text-center">
+                    <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
                             <FontAwesomeIcon icon={['far', 'address-card']} size="3x" spin  color="green"/>
                         </div>

@@ -13,7 +13,7 @@ function Projects() {
         <>
             <Container fluid="lg" className="my-projects" id="my-projects">
                 <Row className="justify-content-sm-center-center">
-                    <Col md={{span: 8, offset: 2}} className="text-center">
+                    <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
 
 
