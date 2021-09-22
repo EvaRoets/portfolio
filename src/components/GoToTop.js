@@ -10,7 +10,7 @@ const GoToTop = () => {
                     <Col md={{span: 8, offset: 2}} className="text-center">
                         <a href="#top" id="top">
                             <FontAwesomeIcon icon="chevron-circle-up"/>
-                            Let's go back to the top
+                            &nbsp;Let's go back to the top
                         </a>
                     </Col>
                 </Row>
