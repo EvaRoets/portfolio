@@ -50,21 +50,6 @@ const Header = () => {
                 </Navbar>
             </Container>
             {/*navbar ends*/}
-
-            {/*intro hero image starts*/}
-            {/*<div class="hero">*/}
-            {/*    <div class="hero-image" id="home">*/}
-            {/*        <div class="hero-text">*/}
-            {/*            <h2>Hi, I'm Eva!</h2>*/}
-            {/*            <p>and I am a junior web developer, with a passion for aesthetics.</p>*/}
-            {/*            <a href="#contact" className="button" role="button">*/}
-            {/*                <FontAwesomeIcon icon={['far', 'address-card']}/>*/}
-            {/*                Let's get in touch!*/}
-            {/*            </a>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-            {/*intro hero image end*/}
         </>
     );
 }

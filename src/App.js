@@ -18,6 +18,7 @@ import far from '@fortawesome/fontawesome-free-regular';
 import fab from '@fortawesome/fontawesome-free-brands';
 import {faMobileAlt, faEnvelopeOpen, faCopy} from '@fortawesome/free-solid-svg-icons' ;
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
+import Hero from "./components/Hero";
 
 library.add(fas, fab, far, faMobileAlt, faEnvelopeOpen, faCopy, faLinkedin, faGithub);
 
@@ -28,6 +29,7 @@ function App() {
         }}>
             <main>
                 <Header/>
+                <Hero/>
                 <Projects/>
                 <Skills/>
                 <About/>
