@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../css/images/logos/favicon-32x32.png";
 
 
 // import fontawesome icons
@@ -9,10 +10,16 @@ const Header = () => {
     return (
         <>
             {/*navbar starts*/}
-            <a name="top"></a>
             <Container>
-                <Navbar className="justify-content-center" bg="light" variant="light" sticky="top" expand="lg">
+                <Navbar id="top" className="justify-content-center" bg="light" variant="light" sticky="top" expand="lg">
                         <Container>
+                            <Navbar.Brand href="#top">
+                                <img
+                                    alt="Evelopment logo"
+                                    src={Logo}
+                                    className="d-inline-block align-top"
+                                />{' '}
+                            </Navbar.Brand>
                             <Nav.Item>
                                 <Nav.Link href="#top">
                                     <FontAwesomeIcon icon="home"/>
@@ -49,6 +56,7 @@ const Header = () => {
                         </Container>
                 </Navbar>
             </Container>
+
             {/*navbar ends*/}
         </>
     );
