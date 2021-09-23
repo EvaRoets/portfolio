@@ -2,15 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 
 // import fontawesome icons
-// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Container, Row, Col} from "react-bootstrap";
-
-
-// <FontAwesomeIcon icon='laptop-code'/>
-// <FontAwesomeIcon icon='drafting-compass'/>
-// <FontAwesomeIcon icon='comments'/>
-// <FontAwesomeIcon icon='microscope'/>
-
+import {Container, Row, Col, Image} from "react-bootstrap";
 
 const Hero = () => {
     return (
@@ -21,7 +13,7 @@ const Hero = () => {
 
                         <div className="hero">
                             <div className="hero-image">
-                                <img src="" alt=""/>
+                                <Image src="/src/css/images/hero-img.jpg" alt="profile-picture" roundedCircle fluid/>
                             </div>
 
                             <div className="hero-text">
@@ -35,13 +27,12 @@ const Hero = () => {
                                         ]}
                                     />
                                 </h2>
-
                                 <p>
                                     <Typical
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "ambitious junior web developer",
+                                            "ambitious junior web developer 💻",
                                             90000,
                                         ]}
                                     />
