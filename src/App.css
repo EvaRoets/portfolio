@@ -12,6 +12,10 @@ body,html {
     /*-webkit-filter: blur(8px);*/
 }
 
+.profile-picture{
+    border: outset 10px red ;
+}
+
 
 
 h2 {

@@ -1,6 +1,8 @@
 import React from "react";
 import Typical from "react-typical";
 import {Container, Row, Col, Image} from "react-bootstrap";
+import HeroImage from "../css/images/profile-picture.png"
+
 
 const Hero = () => {
     return (
@@ -10,7 +12,7 @@ const Hero = () => {
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="hero">
                             <div className="hero-image">
-                                <Image src="/src/css/images/hero-img.jpg" alt="profile-picture" roundedCircle fluid/>
+                                <Image className="profile-picture" src={HeroImage} alt="profile-picture" roundedCircle fluid width="250px"/>
                             </div>
 
                             <div className="hero-text">
