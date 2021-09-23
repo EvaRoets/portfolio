@@ -1,16 +1,13 @@
 import React from "react";
 import Typical from "react-typical";
-
-// import fontawesome icons
 import {Container, Row, Col, Image} from "react-bootstrap";
 
 const Hero = () => {
     return (
         <>
-            <Container fluid="lg" className="contact-container" id="contact">
+            <Container fluid="lg" className="hero-container">
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 10, offset: 1}} className="text-center">
-
                         <div className="hero">
                             <div className="hero-image">
                                 <Image src="/src/css/images/hero-img.jpg" alt="profile-picture" roundedCircle fluid/>
@@ -19,11 +16,11 @@ const Hero = () => {
                             <div className="hero-text">
                                 <h2>
                                     <Typical
-                                    loop={Infinity}
-                                    wrapper="b"
-                                    steps={[
-                                        "Hi, I'm Eva! ",
-                                        10000,
+                                        loop={Infinity}
+                                        wrapper="b"
+                                        steps={[
+                                            "Hi, I'm Eva! ",
+                                            10000,
                                         ]}
                                     />
                                 </h2>
@@ -40,43 +37,43 @@ const Hero = () => {
 
                                 <p>
                                     <Typical
-                                    loop={Infinity}
-                                    wrapper="b"
-                                    steps={[
-                                        "passionate about front-end design 🖌️",
-                                        8000,
+                                        loop={Infinity}
+                                        wrapper="b"
+                                        steps={[
+                                            "passionate about front-end design 🖌️",
+                                            8000,
                                         ]}
                                     />
                                 </p>
 
                                 <p>
                                     <Typical
-                                    loop={Infinity}
-                                    wrapper="b"
-                                    steps={[
-                                        "backed up with experience in:",
-                                        7000,
-                                        ]}
-                                    />
-                                 </p>
-                                <p>
-                                    <Typical
-                                    loop={Infinity}
-                                    wrapper="b"
-                                    steps={[
-                                        "research, communication 💬 and digital marketing",
-                                        6000,
+                                        loop={Infinity}
+                                        wrapper="b"
+                                        steps={[
+                                            "backed up with experience in:",
+                                            7000,
                                         ]}
                                     />
                                 </p>
                                 <p>
                                     <Typical
-                                    loop={Infinity}
-                                    wrapper="b"
-                                    steps={[
-                                        "mainly in tech and biomedical industries. 🔬",
-                                        5000,
-                                    ]}
+                                        loop={Infinity}
+                                        wrapper="b"
+                                        steps={[
+                                            "research, communication 💬 and digital marketing",
+                                            6000,
+                                        ]}
+                                    />
+                                </p>
+                                <p>
+                                    <Typical
+                                        loop={Infinity}
+                                        wrapper="b"
+                                        steps={[
+                                            "mainly in tech and biomedical industries. 🔬",
+                                            5000,
+                                        ]}
                                     />
                                 </p>
                             </div>
