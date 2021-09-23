@@ -31,7 +31,7 @@ const Hero = () => {
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "ambitious junior web developer 💻",
+                                            "Ambitious junior web developer 💻",
                                             90000,
                                         ]}
                                     />
@@ -42,7 +42,7 @@ const Hero = () => {
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "passionate about front-end design 🖌️",
+                                            "Passionate about front-end design 🖌️",
                                             8000,
                                         ]}
                                     />
@@ -53,7 +53,7 @@ const Hero = () => {
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "backed up with experience in:",
+                                            "Backed up with experience in:",
                                             7000,
                                         ]}
                                     />
