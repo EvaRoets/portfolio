@@ -15,7 +15,7 @@ const Projects = () => {
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
-                            <FontAwesomeIcon icon="code" size="3x" color="blue"/>
+                            <FontAwesomeIcon icon="code" size="3x" color="#FF5C58"/>
                         </div>
                         <h2>Apps I have built</h2>
                         <div className="projects-gallery">
@@ -32,9 +32,9 @@ const Projects = () => {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Inspect the code</Button>
+                                    <Button>Inspect the code</Button>
                                     {/*https://github.com/EvaRoets/weather-app*/}
-                                    <Button variant="primary">Check out the project</Button>
+                                    <Button>Check out the project</Button>
                                     {/*https://affectionate-wilson-13a015.netlify.app/*/}
                                 </Card.Body>
                             </Card>

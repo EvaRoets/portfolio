@@ -15,7 +15,7 @@ const Hero = () => {
                         <div className="hero">
                             <div className="hero-image">
                                 <Image className="profile-picture" src={HeroImage} alt="profile-picture" roundedCircle
-                                       fluid width="350px"/>
+                                       fluid width="250px"/>
                             </div>
                             <div className="hero-text">
                                 <h2>

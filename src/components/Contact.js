@@ -14,7 +14,7 @@ const Contact = () => {
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
-                            <FontAwesomeIcon icon={['far', 'address-card']} size="3x" spin color="green"/>
+                            <FontAwesomeIcon icon={['far', 'address-card']} size="3x"  color="#FF5C58"/>
                         </div>
                         <h2>Contact</h2>
                         <div className="contact">

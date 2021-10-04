@@ -1,21 +1,22 @@
 /*____________________GENERAL____________________*/
-/*body,html {*/
-/*    display: grid;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    background: url("./css/images/background-home.jpg") repeat fixed;*/
-/*    background-size: cover;*/
-/*    height: 100%;*/
-/*    margin: 0;*/
-/*    font-family: Arial, Helvetica, sans-serif;*/
-/*    !*TODO: blur background without losing text*!*/
-/*    !*filter: blur(8px);*!*/
-/*    !*-webkit-filter: blur(8px);*!*/
+body,html {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /*background: url("./css/images/background-home.jpg") repeat fixed;*/
+    background: #F8F0DF;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*h2 {*/
+/*    padding: 25px;*/
+/*    color: #F8F0DF;*/
 /*}*/
 
-h2 {
-    padding: 25px;
-}
+
 
 .containerIcon{
     padding: 75px 0 0 0;
@@ -30,11 +31,19 @@ a{
     color: black;
 }
 
+button{
+    background: #FF5C58!important;
+    border-color: #FF5C58!important;
+    padding: 2px;
+}
+
 /*____________________NAVBAR/HEADER____________________*/
 /*TODO add hover effect*/
 #top {
-    color: grey;
+    color: #79B4B7;
 }
+
+
 
 
 /*____________________HERO____________________*/
@@ -46,11 +55,12 @@ a{
     justify-content: space-around;
     align-items: center;
     padding: 100px 0;
-    background: greenyellow;
+    background: #79B4B7;
+    border-radius: 30% 50%;
 }
 
 .profile-picture{
-    border: outset 10px red ;
+    border: double  10px #FF5C58 ;
 }
 
 .profile-picture:hover {
@@ -59,6 +69,7 @@ a{
 
 .hero-text {
     text-align: left;
+    color: #F8F0DF;
 }
 
 /*____________________PROJECTS____________________*/
@@ -71,7 +82,7 @@ a{
 }
 .badge{
     margin: 0 2px;
-    background: grey;
+    background: #79B4B7;
 }
 
 
@@ -112,7 +123,7 @@ a{
 }
 
 .contact-icon{
-    color: orange;
+    color: #FF5C58;
     margin-right: 10px;
 }
 

@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <>
             <Container>
-                <Navbar id="top" className="justify-content-center" bg="light" variant="light" sticky="top" expand="lg">
+                <Navbar id="top" className="justify-content-center" bg="muted"  sticky="top" expand="lg">
                     <Container>
                         <Navbar.Brand href="#top">
                             <img
@@ -30,7 +30,7 @@ const Header = () => {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link href="#projects">
+                            <Nav.Link href="#projects" >
                                 <FontAwesomeIcon icon="code"/>
                                 &nbsp;Projects
                             </Nav.Link>
