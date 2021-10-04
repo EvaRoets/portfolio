@@ -1,23 +1,26 @@
-import React from "react"
+import React from "react";
+import GoToTop from "./GoToTop";
+
+// import Bootstrap elements
+import {Container, Row, Col, Table} from "react-bootstrap";
 
 // import fontawesome icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Container, Row, Col, Table} from "react-bootstrap";
-import GoToTop from "./GoToTop";
 
 
-function Skills() {
+const Skills = () => {
     return (
         <>
-            <Container fluid="lg" className="my-skills" id="my-skills">
+            <Container fluid="lg" className="skills-container" id="skills">
                 <Row>
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
-                            <FontAwesomeIcon icon="cog" size="3x"  spin color="purple"/>
+                            <FontAwesomeIcon icon="cog" size="3x" spin color="purple"/>
                         </div>
                         <h2>Skills & Tech Stack</h2>
                         <div className="skills-text">
-                            <p>These are the skills and technologies I know how to use or wish to specialize in further.</p>
+                            <p>These are the skills and technologies I know how to use or wish to specialize in
+                                further.</p>
                         </div>
                         <Col md={{span: 8, offset: 2}} className="skills-table">
 
@@ -43,9 +46,6 @@ function Skills() {
                                     <td>GIT</td>
                                     <td>PhotoShop</td>
                                     <td>Digital Marketing</td>
-
-
-
                                 </tr>
                                 </tbody>
                             </Table>
