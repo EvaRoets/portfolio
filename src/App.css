@@ -1,3 +1,4 @@
+/*____________________GENERAL____________________*/
 /*body,html {*/
 /*    display: grid;*/
 /*    align-items: center;*/
@@ -12,6 +13,31 @@
 /*    !*-webkit-filter: blur(8px);*!*/
 /*}*/
 
+h2 {
+    padding: 25px;
+}
+
+.containerIcon{
+    padding: 75px 0 0 0;
+}
+
+hr {
+    margin: 20px 0 25px 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*____________________NAVBAR/HEADER____________________*/
+/*TODO add hover effect*/
+#top {
+    color: grey;
+}
+
+
+/*____________________HERO____________________*/
 .hero{
     display: flex;
     flex-direction: row;
@@ -35,27 +61,20 @@
     text-align: left;
 }
 
-h2 {
-    padding: 25px;
-}
-
-/*TODO add hover effect*/
-#top {
-    color: grey;
-}
-
-.containerIcon{
-    padding: 75px 0 0 0;
-}
-
-hr {
-    margin: 20px 0 25px 0;
+/*____________________PROJECTS____________________*/
+.projects-gallery{
+    display: flex;
 }
 
 
+/*____________________SKILLS____________________*/
+/*____________________ABOUT____________________*/
+.about-text{
+    text-align: justify;
+}
 
-
-.contact {
+/*____________________CONTACT____________________*/
+.contact{
     display: flex;
     padding: 0 0 40px 0;
     flex-direction: row;
@@ -65,11 +84,6 @@ hr {
     justify-content: space-around;
 }
 
-
-.about-text{
-    text-align: justify;
-
-}
 .contact-text{
     text-align: justify;
 }
@@ -84,21 +98,36 @@ hr {
     text-align: justify;
 }
 
-/*TODO add cursor image*/
-/*TODO make company icon dynamic with gif*/
-
-
 .copy-email{
     border: none;
     background-color: white;
 }
 
-.socialIcon{
+.contact-icon{
     color: orange;
     margin-right: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
+/*____________________FOOTER____________________*/
+/*____________________GOTOTOP____________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TODO add cursor image*/
+/*TODO make company icon dynamic with gif*/
+
+
+
+
