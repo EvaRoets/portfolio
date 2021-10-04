@@ -66,6 +66,14 @@ a{
     display: flex;
 }
 
+.card {
+    border: none;
+}
+.badge{
+    margin: 0 2px;
+    background: grey;
+}
+
 
 /*____________________SKILLS____________________*/
 /*____________________ABOUT____________________*/

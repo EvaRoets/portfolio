@@ -10,7 +10,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const About = () => {
     return (
         <>
-            <Container fluid="lg" class="about-container" id="about">
+            <Container fluid="lg" className="about-container" id="about">
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">

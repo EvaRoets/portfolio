@@ -27,20 +27,20 @@ const Contact = () => {
                                 </p>
                             </div>
                             <div className="contact-icons">
-                                <FontAwesomeIcon icon="mobile-alt" size="2x" className="socialIcon"/>
-                                <FontAwesomeIcon icon={['far', 'envelope-open']} size="2x" className="socialIcon"/>
-                                <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" className="socialIcon"/>
-                                <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="socialIcon"/>
+                                <FontAwesomeIcon icon="mobile-alt" size="2x" className="contact-icon"/>
+                                <FontAwesomeIcon icon={['far', 'envelope-open']} size="2x" className="contact-icon"/>
+                                <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" className="contact-icon"/>
+                                <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="contact-icon"/>
                             </div>
 
                             <div className="contact-details">
                                 <div className="contact-mobile">
-                                    <FontAwesomeIcon icon="mobile-alt" size="2x" className="socialIcon"/>
+                                    <FontAwesomeIcon icon="mobile-alt" size="2x" className="contact-icon"/>
                                     <a href="tel:+32493140480">+32 493 140 480</a>
                                 </div>
 
                                 <div className="contact-email">
-                                    <FontAwesomeIcon icon={['far', 'envelope-open']} size="2x" className="socialIcon"/>
+                                    <FontAwesomeIcon icon={['far', 'envelope-open']} size="2x" className="contact-icon"/>
                                     <a href="mailto:eva_roets@hotmail">eva_roets@hotmail</a>
                                     <button className="copy-email" onClick="CopyToClipboard('email')">
                                         <FontAwesomeIcon icon={['far', 'copy']} size="1x"/>
@@ -51,13 +51,13 @@ const Contact = () => {
                                 <div className="contact-li">
                                     <a href="https://www.linkedin.com/in/evaroets/" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x"
-                                                         className="socialIcon"/>
+                                                         className="contact-icon"/>
                                         https://www.linkedin.com/in/evaroets/</a>
                                 </div>
 
                                 <div className="contact-gh">
                                     <a href="https://github.com/EvaRoets" target="_blank" rel="noreferrer">
-                                        <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="socialIcon"/>
+                                        <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="contact-icon"/>
                                         https://github.com/EvaRoets</a>
                                 </div>
                             </div>

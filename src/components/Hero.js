@@ -1,8 +1,10 @@
 import React from "react";
 import Typical from "react-typical";
-import {Container, Row, Col, Image} from "react-bootstrap";
 import HeroImage from "../css/images/profile-picture.png"
 
+
+// import Bootstrap elements
+import {Container, Row, Col, Image} from "react-bootstrap";
 
 const Hero = () => {
     return (
