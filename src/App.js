@@ -1,10 +1,8 @@
 import React from "react"
 
-// import fontawesome icons
-// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
 // import components
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -18,7 +16,6 @@ import far from '@fortawesome/fontawesome-free-regular';
 import fab from '@fortawesome/fontawesome-free-brands';
 import {faMobileAlt, faEnvelopeOpen, faCopy} from '@fortawesome/free-solid-svg-icons' ;
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
-import Hero from "./components/Hero";
 
 library.add(fas, fab, far, faMobileAlt, faEnvelopeOpen, faCopy, faLinkedin, faGithub);
 
