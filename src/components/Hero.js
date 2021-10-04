@@ -12,9 +12,9 @@ const Hero = () => {
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="hero">
                             <div className="hero-image">
-                                <Image className="profile-picture" src={HeroImage} alt="profile-picture" roundedCircle fluid width="250px"/>
+                                <Image className="profile-picture" src={HeroImage} alt="profile-picture" roundedCircle
+                                       fluid width="350px"/>
                             </div>
-
                             <div className="hero-text">
                                 <h2>
                                     <Typical
@@ -36,7 +36,6 @@ const Hero = () => {
                                         ]}
                                     />
                                 </p>
-
                                 <p>
                                     <Typical
                                         loop={Infinity}
@@ -47,7 +46,6 @@ const Hero = () => {
                                         ]}
                                     />
                                 </p>
-
                                 <p>
                                     <Typical
                                         loop={Infinity}
