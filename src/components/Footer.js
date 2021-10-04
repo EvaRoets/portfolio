@@ -1,18 +1,20 @@
 import React from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
+// import Bootstrap elements
 import {Container, Row, Col} from "react-bootstrap";
 
+// import fontawesome icons
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
     const name = "Eva Roets"
     return (
         <>
-
-            <Container fluid="lg" className="footer sticky">
+            <Container fluid="lg" className="footer-container sticky">
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 8, offset: 2}} className="text-center">
                         Copyright
-                        <FontAwesomeIcon icon={['far', 'copyright']}/>
+                        <FontAwesomeIcon icon={['far', 'copyright']}/> &nbsp;
                         <script>document.write(new Date().getFullYear())</script>
                         {name}
                     </Col>
