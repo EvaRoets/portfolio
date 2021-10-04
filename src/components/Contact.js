@@ -1,22 +1,24 @@
-import React from "react"
+import React from "react";
+import GoToTop from "./GoToTop";
+
+// import Bootstrap elements
+import {Container, Row, Col} from "react-bootstrap";
 
 // import fontawesome icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Container, Row, Col} from "react-bootstrap";
-import GoToTop from "./GoToTop";
 
-function Contact() {
+const Contact = () => {
     return (
         <>
             <Container fluid="lg" className="contact-container" id="contact">
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
-                            <FontAwesomeIcon icon={['far', 'address-card']} size="3x" spin  color="green"/>
+                            <FontAwesomeIcon icon={['far', 'address-card']} size="3x" spin color="green"/>
                         </div>
                         <h2>Contact</h2>
                         <div className="contact">
-                            <div className="contact-text" >
+                            <div className="contact-text">
                                 <p>
                                     Do you have any questions <br/>
                                     or would you like to know more <br/>
@@ -42,13 +44,14 @@ function Contact() {
                                     <a href="mailto:eva_roets@hotmail">eva_roets@hotmail</a>
                                     <button className="copy-email" onClick="CopyToClipboard('email')">
                                         <FontAwesomeIcon icon={['far', 'copy']} size="1x"/>
-                                        <span className="tooltiptext"></span>
+                                        <span className="tooltiptext"/>
                                     </button>
                                 </div>
 
                                 <div className="contact-li">
                                     <a href="https://www.linkedin.com/in/evaroets/" target="_blank" rel="noreferrer">
-                                        <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" className="socialIcon"/>
+                                        <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x"
+                                                         className="socialIcon"/>
                                         https://www.linkedin.com/in/evaroets/</a>
                                 </div>
 
@@ -57,7 +60,6 @@ function Contact() {
                                         <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="socialIcon"/>
                                         https://github.com/EvaRoets</a>
                                 </div>
-
                             </div>
                         </div>
                     </Col>
