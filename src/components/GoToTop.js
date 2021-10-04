@@ -5,12 +5,12 @@ import {Container, Row, Col} from "react-bootstrap";
 const GoToTop = () => {
     return (
         <>
-            <Container fluid="lg">
+            <Container className="to-the-top" fluid="lg">
                 <Row>
                     <Col md={{span: 8, offset: 2}} className="text-center">
                         <a href="#top" id="top">
                             <FontAwesomeIcon icon="chevron-circle-up"/>
-                            &nbsp;Let's go back to the top
+                            &nbsp; &nbsp;Let's go back to the top
                         </a>
                     </Col>
                 </Row>
