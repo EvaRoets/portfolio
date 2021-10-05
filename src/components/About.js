@@ -18,14 +18,25 @@ const About = () => {
                         </div>
                         <h2>About me</h2>
                         <div className="about-text">
-                            <p> I started off in communication and digital marketing and got a taste for web
-                                development. On the exciting adventure of learning the ropes.</p>
-                            <p>Wat is Lorem Ipsum?
-                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum
-                                is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters
-                                nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd
-                                maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair
-                                geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
+                            <p>Hi, I'm Eva!</p>
+                            <p>After having explored a plethora of student jobs - I wasn't afraid to get my hands dirty,
+                                I started off my <b>professional career in customer service roles</b>. Although I'm quite the
+                                smooth communicator, as a true language aficionado I craved more creativity.</p>
+                            <p>Life brought propelled me towards <b>communication and digital marketing</b>, mainly for SMEs
+                                in the tech industry. Not only did I get the coveted opportunity to play my magic as a
+                                wordsmith. I also got a passion for web design and development.
+                            </p>
+                            <p>After going on the exciting adventure of travelling the world - yes, I'm one of those
+                                cliché millennials - I swiftly made a sharp turn right and I mustered up the courage to
+                                learning to ropes, particularly <b>specialising in front-end development</b>.</p>
+                            <p>What else do you absolutely need to know about me? When I'm not <i>D&D'ing</i> (designing
+                                and developing, duh), I enjoy spending time outside - either while travelling (even
+                                more) or sniffing up that fresh nature air. I'm also very fond of chasing away my feline
+                                four-legged friends with some singing. And since I'm a avid learner of just about
+                                anything, you can find me enrolled in one too many courses I was, of course, just about to
+                                start (I promise!).
+                            </p>
+                            <p>Interested in finding out more about my life story or professional experience? Have a closer look at my resume or get in touch through my contact details just below!</p>
                         </div>
                     </Col>
                 </Row>
