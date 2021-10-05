@@ -1,5 +1,5 @@
 /*____________________GENERAL____________________*/
-body,html {
+body, html {
     display: grid;
     align-items: center;
     justify-content: center;
@@ -17,8 +17,7 @@ h2 {
 }
 
 
-
-.containerIcon{
+.containerIcon {
     padding: 120px 0 0 0;
 }
 
@@ -26,41 +25,54 @@ hr {
     margin: 20px 0 25px 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: #FCD2D1;
 }
 
-a:hover{
+a:hover {
     color: #FF5C58;
 
 }
 
-button{
-    background: #FF5C58!important;
-    border-color: #FF5C58!important;
-    padding: 2px;
+button {
+    background: #FF5C58 !important;
+    border-color:#79B4B7!important;
+    margin: 5px;
+    color: #FCD2D1;
+    border-radius: 30% 50%!important;
+    padding: 15px;
+
+}
+
+button:hover{
+    border: 2px #FF5C58 !important;
+    transform: scale(1.1);
+}
+
+/*TODO: fix active effect*/
+button:active{
+    border: 2px double #FF5C58 !important;
+    transform: scale(1.1);
 }
 
 /*____________________NAVBAR/HEADER____________________*/
-/*TODO add hover effect*/
-
-.navbar-brand{
-    color: #79B4B7!important;
+.navbar-brand {
+    color: #79B4B7 !important;
 }
 
 .nav-link {
-    color: #79B4B7!important;
+    color: #79B4B7 !important;
 }
 
+/*TODO: fix hover link*/
 nav-link:hover {
     text-decoration: underline double #FF5C58;
 }
 
 
-
 /*____________________HERO____________________*/
-.hero{
+.hero {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,12 +82,12 @@ nav-link:hover {
     padding: 100px 0;
     background: #79B4B7;
     border-radius: 30% 62%;
-    margin-top:20px;
+    margin-top: 20px;
     align-items: baseline;
 }
 
-.profile-picture{
-    border: double  10px #FF5C58 ;
+.profile-picture {
+    border: double 10px #FF5C58;
 }
 
 .profile-picture:hover {
@@ -88,27 +100,68 @@ nav-link:hover {
 }
 
 /*____________________PROJECTS____________________*/
-.projects-gallery{
+.projects-gallery {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
 }
 
 .card {
-    border: none;
+    background-color: #79B4B7;
+    margin: 15px;
+    border-radius: 62% 30%;
+    padding: 50px 25px;
+
 }
-.badge{
+
+.card-title {
+    color: #F8F0DF !important;
+    text-align: right;
+
+}
+
+.card-badge {
+    text-align: right;
+}
+
+.badge {
     margin: 0 2px;
-    background: #79B4B7;
+    background: #F8F0DF;
+    color: #79B4B7;
+    border-radius: 30% 50%!important;
+
+}
+
+.card-img-top {
+    width: 300px;
+    margin: 15px 0;
+}
+
+.card-text {
+    text-align: right;
+    padding: 8px 0;
+}
+
+
+.card-button {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
 
 /*____________________SKILLS____________________*/
 /*____________________ABOUT____________________*/
-.about-text{
+.about-text {
     text-align: justify;
 }
 
 /*____________________CONTACT____________________*/
-.contact{
+.contact {
     display: flex;
     padding: 0 0 40px 0;
     flex-direction: row;
@@ -118,49 +171,43 @@ nav-link:hover {
     justify-content: space-around;
 }
 
-.contact-text{
+.contact-text {
     text-align: justify;
 }
 
-.contact-icons{
+.contact-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contact-details{
+.contact-details {
     text-align: justify;
 }
 
-.copy-email{
+.copy-email {
     border: none;
     background-color: white;
 }
 
-.contact-icon{
+.contact-icon {
     color: #FF5C58;
     margin-right: 10px;
 }
 
 
 /*____________________FOOTER____________________*/
+.footer-container {
+    color: #79B4B7;
+    margin-top: 100px;
+    padding: 10px
+}
+
 /*____________________GOTOTOP____________________*/
-.go-to-top{
+.go-to-top {
     padding-top: 15px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*TODO add cursor image*/
