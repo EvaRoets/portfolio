@@ -57,8 +57,12 @@ button:active {
 }
 /*TODO: add padding between text and underline*/
 .nav-link:hover {
-    text-decoration: underline double #FF5C58;
+    color: #FF5C58!important;
 }
+.nav-item:hover{
+    border-bottom: #FF5C58 5px double;
+}
+
 
 /*____________________HERO____________________*/
 .hero {
@@ -74,10 +78,6 @@ button:active {
     margin-top: 20px;
 }
 
-.hero:hover{
-    transform: scale(0.9);
-
-}
 .profile-picture {
     border: double 10px #FF5C58;
 }
