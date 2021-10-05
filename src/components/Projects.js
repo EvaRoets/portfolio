@@ -26,11 +26,11 @@ const Projects = () => {
                             <Card id="project-one">
                                 <Card.Body>
                                     <Card.Title>A Weather App</Card.Title>
-                                    <div className="card-badge">
+                                    <div className="card-badge-container">
                                         <h6>
-                                            <Badge bg="muted">CSS</Badge>
-                                            <Badge bg="muted">JS</Badge>
-                                            <Badge bg="muted">API</Badge>
+                                            <Badge className="card-badge" bg="muted">CSS</Badge>
+                                            <Badge className="card-badge" bg="muted">JS</Badge>
+                                            <Badge className="card-badge" bg="muted">API</Badge>
                                         </h6>
                                     </div>
                                     <Card.Text>
@@ -48,11 +48,11 @@ const Projects = () => {
                             <Card id="project-two">
                                 <Card.Body>
                                     <Card.Title>A to-do list</Card.Title>
-                                    <div className="card-badge">
+                                    <div className="card-badge-container">
                                         <h6>
-                                            <Badge bg="muted">CSS</Badge>
-                                            <Badge bg="muted">JS</Badge>
-                                            <Badge bg="muted">React</Badge>
+                                            <Badge className="card-badge" bg="muted">CSS</Badge>
+                                            <Badge className="card-badge" bg="muted">JS</Badge>
+                                            <Badge className="card-badge" bg="muted">React</Badge>
                                         </h6>
                                     </div>
                                     <Card.Text>
@@ -70,10 +70,10 @@ const Projects = () => {
                             <Card id="project-three">
                                 <Card.Body>
                                     <Card.Title>An order form</Card.Title>
-                                    <div className="card-badge">
+                                    <div className="card-badge-container">
                                         <h6>
-                                            <Badge bg="muted">CSS</Badge>
-                                            <Badge bg="muted">PHP</Badge>
+                                            <Badge className="card-badge" bg="muted">CSS</Badge>
+                                            <Badge className="card-badge" bg="muted">PHP</Badge>
                                         </h6>
                                     </div>
                                     <Card.Text>
