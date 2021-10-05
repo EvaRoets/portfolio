@@ -13,10 +13,6 @@ const Hero = () => {
             <Container fluid="lg" className="hero-container">
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 10, offset: 1}} className="hero">
-                        <div className="hero-image">
-                            <Image className="profile-picture" src={HeroImage} alt="profile-picture" roundedCircle
-                                   fluid width="250px"/>
-                        </div>
                         <div className="hero-text">
                             <h3>
                                 <Typical
@@ -80,10 +76,15 @@ const Hero = () => {
                                     ]}
                                 />
                             </p>
-                            <div className="button">
+
+                        </div>
+                        <div className="hero-image">
+                            <Image className="profile-picture" src={HeroImage} alt="profile-picture" roundedCircle
+                                   fluid width="250px"/>
+                            <div className="hero-button">
                                 <a href="#about">
-                                Get to know me better&nbsp;
-                                <FontAwesomeIcon icon="chevron-circle-right"/>
+                                    Get to know me better&nbsp;
+                                    <FontAwesomeIcon icon="chevron-circle-right"/>
                                 </a>
                             </div>
                         </div>
