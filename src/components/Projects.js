@@ -1,10 +1,6 @@
 import React from "react";
 import GoToTop from "./GoToTop";
 
-import Weather from "../css/images/weather-app.PNG"
-import ToDo from "../css/images/to-do-list.png"
-
-
 // import Bootstrap elements
 import {Container, Row, Col, Card, Button, Badge} from "react-bootstrap";
 
@@ -37,19 +33,17 @@ const Projects = () => {
                                             <Badge bg="muted">API</Badge>
                                         </h6>
                                     </div>
-                                    {/*<Card.Img variant="top" src={Weather}/>*/}
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <div className="card-button">
-                                        <Button>See code</Button>
-                                        {/*https://github.com/EvaRoets/weather-app*/}
-                                        <Button>See Result</Button>
-                                        {/*https://affectionate-wilson-13a015.netlify.app/*/}
-                                    </div>
-
                                 </Card.Body>
+                                <div className="card-button">
+                                    <Button>See code</Button>
+                                    {/*https://github.com/EvaRoets/weather-app*/}
+                                    <Button>See Result</Button>
+                                    {/*https://affectionate-wilson-13a015.netlify.app/*/}
+                                </div>
                             </Card>
                             <Card id="project-two">
                                 <Card.Body>
@@ -61,18 +55,17 @@ const Projects = () => {
                                             <Badge bg="muted">React</Badge>
                                         </h6>
                                     </div>
-                                    {/*<Card.Img variant="top" src={ToDo}/>*/}
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <div className="card-button">
-                                        <Button>See code</Button>
-                                        {/*https://github.com/EvaRoets/intro-react*/}
-                                        <Button>See result</Button>
-                                        {/*https://competent-curie-7ba046.netlify.app/*/}
-                                    </div>
                                 </Card.Body>
+                                <div className="card-button">
+                                    <Button>See code</Button>
+                                    {/*https://github.com/EvaRoets/intro-react*/}
+                                    <Button>See result</Button>
+                                    {/*https://competent-curie-7ba046.netlify.app/*/}
+                                </div>
                             </Card>
                             <Card id="project-three">
                                 <Card.Body>
@@ -83,17 +76,16 @@ const Projects = () => {
                                             <Badge bg="muted">PHP</Badge>
                                         </h6>
                                     </div>
-                                    {/*<Card.Img variant="top" src={ToDo}/>*/}
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <div className="card-button">
-                                        <Button>See code</Button>
-                                        {/*https://github.com/EvaRoets/order-form*/}
-                                        <Button>See result</Button>
-                                    </div>
                                 </Card.Body>
+                                <div className="card-button">
+                                    <Button>See code</Button>
+                                    {/*https://github.com/EvaRoets/order-form*/}
+                                    <Button>See result</Button>
+                                </div>
                             </Card>
                         </div>
                     </Col>
