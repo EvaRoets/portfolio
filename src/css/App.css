@@ -19,7 +19,7 @@ h2 {
 
 
 .containerIcon{
-    padding: 75px 0 0 0;
+    padding: 120px 0 0 0;
 }
 
 hr {
@@ -145,6 +145,10 @@ nav-link:hover {
 
 /*____________________FOOTER____________________*/
 /*____________________GOTOTOP____________________*/
+.go-to-top{
+    padding-top: 15px;
+
+}
 
 
 

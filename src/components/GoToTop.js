@@ -5,7 +5,7 @@ import {Container, Row, Col} from "react-bootstrap";
 const GoToTop = () => {
     return (
         <>
-            <Container className="to-the-top" fluid="lg">
+            <Container className="go-to-top" fluid="lg">
                 <Row>
                     <Col md={{span: 8, offset: 2}} className="text-center">
                         <a href="#top" id="top">
