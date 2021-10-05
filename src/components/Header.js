@@ -1,5 +1,7 @@
+// TODO: make pencil logo draw a line when hovering
+
 import React from "react";
-import Logo from "../css/images/logos/favicon-32x32.png";
+import Logo from "../css/images/logos/favicon.png";
 
 // import Bootstrap elements
 import {Container, Navbar, Nav} from "react-bootstrap";
@@ -18,17 +20,10 @@ const Header = () => {
                                 alt="Evelopment logo"
                                 src={Logo}
                                 className="d-inline-block align-top"
-                            />
-                            {/*TODO: add text to logo? */}
-                            {''}
-                        </Navbar.Brand>
-                        <Nav.Item>
-                            <Nav.Link href="#top">
-                                <FontAwesomeIcon icon="home"/>
-                                &nbsp;Home
-                            </Nav.Link>
-                        </Nav.Item>
 
+                            />
+                            {/*{'Evelopment'}*/}
+                        </Navbar.Brand>
                         <Nav.Item>
                             <Nav.Link href="#projects" >
                                 <FontAwesomeIcon icon="code"/>
@@ -63,3 +58,4 @@ const Header = () => {
 }
 
 export default Header;
+

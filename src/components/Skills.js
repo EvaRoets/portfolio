@@ -15,7 +15,7 @@ const Skills = () => {
                 <Row>
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
-                            <FontAwesomeIcon icon="cog" size="3x" spin color="#FF5C58"/>
+                            <FontAwesomeIcon icon="cog" size="3x" spin color="#79B4B7"/>
                         </div>
                         <h2>Skills & Tech Stack</h2>
                         <div className="skills-text">

@@ -18,7 +18,7 @@ const Hero = () => {
                                        fluid width="250px"/>
                             </div>
                             <div className="hero-text">
-                                <h2>
+                                <h3>
                                     <Typical
                                         loop={Infinity}
                                         wrapper="b"
@@ -27,7 +27,7 @@ const Hero = () => {
                                             10000,
                                         ]}
                                     />
-                                </h2>
+                                </h3>
                                 <p>
                                     <Typical
                                         loop={Infinity}

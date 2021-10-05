@@ -14,7 +14,7 @@ const About = () => {
                 <Row className="justify-content-sm-center-center">
                     <Col md={{span: 10, offset: 1}} className="text-center">
                         <div className="containerIcon">
-                            <FontAwesomeIcon icon={['far', 'user']} size="3x" color="#FF5C58"/>
+                            <FontAwesomeIcon icon={['far', 'user']} size="3x" color="#79B4B7"/>
                         </div>
                         <h2>About me</h2>
                         <div className="about-text">
