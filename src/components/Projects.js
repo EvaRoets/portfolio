@@ -39,9 +39,9 @@ const Projects = () => {
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button">
-                                    <Button>See code</Button>
+                                    <Button>See code <FontAwesomeIcon icon="chevron-circle-right"/></Button>
+                                    <Button>See result <FontAwesomeIcon icon="chevron-circle-right"/></Button>
                                     {/*https://github.com/EvaRoets/weather-app*/}
-                                    <Button>See Result</Button>
                                     {/*https://affectionate-wilson-13a015.netlify.app/*/}
                                 </div>
                             </Card>
@@ -61,9 +61,9 @@ const Projects = () => {
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button">
-                                    <Button>See code</Button>
+                                    <Button>See code  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
+                                    <Button>See result  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
                                     {/*https://github.com/EvaRoets/intro-react*/}
-                                    <Button>See result</Button>
                                     {/*https://competent-curie-7ba046.netlify.app/*/}
                                 </div>
                             </Card>
@@ -82,9 +82,10 @@ const Projects = () => {
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button">
-                                    <Button>See code</Button>
+                                    <Button>See code  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
+                                    <Button>See result  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
                                     {/*https://github.com/EvaRoets/order-form*/}
-                                    <Button>See result</Button>
+
                                 </div>
                             </Card>
                         </div>

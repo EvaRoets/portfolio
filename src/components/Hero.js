@@ -5,6 +5,7 @@ import HeroImage from "../css/images/profile-picture.png"
 
 // import Bootstrap elements
 import {Container, Row, Col, Image} from "react-bootstrap";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Hero = () => {
     return (
@@ -54,7 +55,7 @@ const Hero = () => {
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "Backed up with experience in:",
+                                            "Backed up with experience in",
                                             7000,
                                         ]}
                                     />
@@ -79,6 +80,8 @@ const Hero = () => {
                                         ]}
                                     />
                                 </p>
+                                {/*TODO: add link to about + change arrow*/}
+                                <button>Get to know me better <FontAwesomeIcon icon="chevron-circle-right"/></button>
                             </div>
                     </Col>
                 </Row>

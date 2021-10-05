@@ -1,16 +1,17 @@
 /*TODO add cursor image*/
 /*TODO make company icon dynamic with gif*/
 /*____________________GENERAL____________________*/
-body, html {
+body {
     display: grid;
     align-items: center;
     justify-content: center;
-    /*background: url("./css/images/background-home.jpg") repeat fixed;*/
+    /*background: url("../css/images/background5.jpg") center fixed no-repeat;*/
     background: #F8F0DF;
     background-size: cover;
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 h2 {
     padding: 5px 25px 25px 25px;
@@ -32,20 +33,18 @@ a:hover {
 }
 button {
     background: #FF5C58 !important;
-    border-color: #79B4B7 !important;
+    border: double 8px #79B4B7 !important;
     margin: 5px;
-    color: #FCD2D1;
+    color: #FCD2D1 !important;;
     border-radius: 30% 50% !important;
     padding: 15px;
 
 }
 button:hover {
-    border: 2px #FF5C58 !important;
     transform: scale(1.1);
 }
 /*TODO: fix active effect*/
 button:active {
-    border: 2px double #FF5C58 !important;
     transform: scale(1.1);
 }
 /*____________________NAVBAR/HEADER____________________*/
@@ -105,12 +104,12 @@ h3{
     background-color: #79B4B7;
     margin: 15px;
     border-radius: 62% 30%;
-    padding: 50px 25px;
+    padding: 50px;
     min-width: 300px;
 }
-.card:hover{
-    transform: rotate(10deg)
-}
+/*.card:hover{*/
+/*    transform: rotate(10deg)*/
+/*}*/
 .card-title {
     color: #F8F0DF !important;
     text-align: right;
@@ -125,6 +124,9 @@ h3{
     color: #79B4B7;
     border-radius: 30% 50% !important;
 }
+.card-badge:hover{
+    transform: scale(1.1) rotate(10deg);
+}
 .card-img-top {
     width: 300px;
     margin: 15px 0;
@@ -135,10 +137,10 @@ h3{
 }
 .card-button {
     display: flex;
-    align-items: baseline;
-    flex-direction: row;
-    flex-wrap: wrap;
     text-align: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 /*____________________SKILLS____________________*/
