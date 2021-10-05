@@ -22,29 +22,29 @@ const Skills = () => {
                             <p>These are the skills and technologies I know how to use or wish to specialize in
                                 further.</p>
                         </div>
-                        <Col md={{span: 8, offset: 1}} className="text-center">
+                        <Col md={{span: 8, offset: 2}} className="text-center">
                             <div className="skills">
 
                                 <h6>
+                                    <Badge className="skills-badge-premium" bg="muted">PhotoShop</Badge>
                                     <Badge className="skills-badge-top" bg="muted">GIT</Badge>
                                 </h6>
                                 <h6>
-                                    <Badge className="skills-badge-medium" bg="muted">JavaScript</Badge>
-                                    <Badge className="skills-badge-medium" bg="muted">PHP</Badge>
-                                    <Badge className="skills-badge-top" bg="muted">React</Badge>
-                                    <Badge className="skills-badge-medium" bg="muted">PhotoShop</Badge>
+                                    <Badge className="skills-badge-medium" bg="muted">JS</Badge>
+                                    <Badge className="skills-badge-top" bg="muted">PHP</Badge>
+                                    <Badge className="skills-badge-medium" bg="muted">React</Badge>
+                                    <Badge className="skills-badge-premium" bg="muted">WP</Badge>
+
                                 </h6>
                                 <h6>
                                     <Badge className="skills-badge-basic" bg="muted">HTML</Badge>
-                                    <Badge className="skills-badge-basic" bg="muted">CSS</Badge>
+                                    <Badge className="skills-badge-medium" bg="muted">CSS</Badge>
                                     <Badge className="skills-badge-basic" bg="muted">SASS</Badge>
-                                    <Badge className="skills-badge-medium" bg="muted">WordPress</Badge>
                                     <Badge className="skills-badge-medium" bg="muted">Translation</Badge>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <Badge className="skills-badge-premium "bg="muted">Copy</Badge>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <Badge className="skills-badge-pebble" bg="muted">.</Badge>
-
+                                    <Badge className="skills-badge-pebble1" bg="muted">000</Badge>
+                                    <Badge className="skills-badge-pebble2" bg="muted">00</Badge>
                                 </h6>
                             </div>
                         </Col>
