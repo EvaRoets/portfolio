@@ -1,4 +1,4 @@
-// TODO: fix data JS
+// TODO: fix JS date display
 import React from "react";
 
 // import Bootstrap elements

@@ -140,13 +140,9 @@ p{
     padding: 50px;
     min-width: 300px;
 }
-/*.card:hover{*/
-/*    transform: rotate(10deg)*/
-/*}*/
 .card-title {
     color: #F8F0DF !important;
     text-align: right;
-
 }
 .card-badge-container {
     text-align: right;
@@ -285,15 +281,12 @@ p{
     color: #F8F0DF;
     font-size: 20px;
 }
-
 .contact-details{
     display:flex;
 }
-
 .contact-details {
     /*text-align: justify;*/
 }
-
 .contact-icon {
     background: #FF5C58;
     margin: 50px;

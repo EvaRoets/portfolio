@@ -1,4 +1,4 @@
-// TODO: make pencil logo draw a line when hovering
+// TODO: make pencil logo draw a line when hovering- gif
 
 import React from "react";
 import Logo from "../css/images/logos/favicon.png";

@@ -27,6 +27,8 @@ const Contact = () => {
                                 </p>
                             </div>
                             <div className="contact-details">
+                                {/*TODO: add bootstrap popover/overlay with tooltip*/}
+
                                 <div className="contact-mobile">
                                     <a href="tel:+32493140480" data-toggle="tooltip"
                                        data-placement="right" title="+32 493 14 04 80">

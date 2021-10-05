@@ -32,7 +32,6 @@ const Hero = () => {
                                     steps={[
                                         "Ambitious junior web developer",
                                         90000,
-
                                     ]}
                                 />
                             </p>
