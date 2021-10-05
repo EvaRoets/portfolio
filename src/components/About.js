@@ -36,6 +36,7 @@ const About = () => {
                                 anything, you can find me enrolled in one too many courses I was, of course, just about to
                                 start (I promise!).
                             </p>
+
                             <p>Interested in finding out more about my life story or professional experience? Have a closer look at my resume or get in touch through my contact details just below!</p>
                         </div>
                     </Col>

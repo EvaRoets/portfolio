@@ -67,7 +67,7 @@ p{
 }
 .nav-item:hover{
     padding-bottom: 20px;
-    border-bottom: #FF5C58 5px double;
+    border-bottom: #FF5C58 10px double;
     border-radius: 30% 50% !important;
 }
 
@@ -223,6 +223,17 @@ p{
     border-radius: 30% 62%;
     margin-top: 50px;
 }
+.skills-button{
+    font-size: 16px;
+    margin: 0 2px;
+    padding: 8px;
+    background: #F8F0DF;
+    color: #79B4B7;
+    border-radius: 50% 30%;
+}
+.skills-button a{
+    color: #FF5C58;
+}
 .skills-badge-pebble1 {
     font-size: 12px;
     margin: 0 2px;
@@ -231,13 +242,13 @@ p{
     color: #F8F0DF;
     border-radius: 30% 50% !important;
 }
-.skills-badge-pebble2 {
-    font-size: 5px;
+.skills-badge-resume {
+    font-size: 16px;
     margin: 0 2px;
-    padding: 2px;
+    padding: 8px;
     background: #F8F0DF;
-    color: #F8F0DF;
-    border-radius: 50% 30% !important;
+    color: #79B4B7;
+    border-radius: 50% 30%;
 }
 .skills-badge-premium {
     font-size: 16px;
@@ -274,8 +285,14 @@ p{
 .skills-badge-pebble1:hover{
     transform: scale(1.1) rotate(10deg);
 }
-.skills-badge-pebble2:hover{
+.skills-badge-resume:hover{
     transform: scale(1.1) rotate(10deg);
+    color: #FF5C58;
+    text-align: center;
+    border-top: 8px #79B4B7;
+    border-right: 8px #79B4B7;
+    border-left: 8px #79B4B7;
+    border-bottom: double 8px #79B4B7;
 }
 .skills-badge-premium:hover{
     transform: scale(1.1) rotate(10deg);

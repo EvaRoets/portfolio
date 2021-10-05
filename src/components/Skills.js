@@ -23,6 +23,7 @@ const Skills = () => {
                                 further.</p>
                         </div>
                         <Col md={{span: 8, offset: 2}} className="text-center">
+                            {/*TODO: add link to resume*/}
                             <div className="skills">
                                 <h6>
                                     <Badge className="skills-badge-premium" bg="muted">PhotoShop</Badge>
@@ -36,14 +37,20 @@ const Skills = () => {
 
                                 </h6>
                                 <h6>
-                                    <Badge className="skills-badge-basic" bg="muted">HTML</Badge>
+                                    <Badge className="skills-badge-top" bg="muted">HTML</Badge>
                                     <Badge className="skills-badge-medium" bg="muted">CSS</Badge>
                                     <Badge className="skills-badge-basic" bg="muted">SASS</Badge>
                                     <Badge className="skills-badge-medium" bg="muted">Translation</Badge>
-                                    <Badge className="skills-badge-premium "bg="muted">Copy</Badge>
+                                    <Badge className="skills-badge-premium " bg="muted">Copy</Badge>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <Badge className="skills-badge-pebble1" bg="muted">000</Badge>
-                                    <Badge className="skills-badge-pebble2" bg="muted">00</Badge>
+                                    <Badge className="skills-badge-resume" bg="muted">
+                                        <div className="skills-button">
+                                            <a href="#about">
+                                                Resume &nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
+                                            </a>
+                                        </div>
+                                    </Badge>
+                                    <Badge className="skills-badge-pebble1" bg="muted">00</Badge>
                                 </h6>
                             </div>
                         </Col>
