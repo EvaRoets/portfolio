@@ -1,3 +1,4 @@
+// TODO: fix data JS
 import React from "react";
 
 // import Bootstrap elements
