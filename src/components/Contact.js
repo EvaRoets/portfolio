@@ -22,8 +22,8 @@ const Contact = () => {
                                 <p>
                                     Do you have any questions <br/>
                                     or would you like to know more <br/>
-                                    about my services? <br/>
-                                    Let's get in touch! &nbsp; <FontAwesomeIcon icon="chevron-circle-right"/>
+                                    about my services? <br/><br/>
+                                    Let's get in touch! &nbsp; <FontAwesomeIcon icon="chevron-circle-down"/>
                                 </p>
                             </div>
                             <div className="contact-details">

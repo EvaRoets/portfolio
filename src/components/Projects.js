@@ -39,11 +39,17 @@ const Projects = () => {
                                         the card's content.
                                     </Card.Text>
                                 </Card.Body>
-                                <div className="card-button">
-                                    <Button>See code <FontAwesomeIcon icon="chevron-circle-right"/></Button>
-                                    <Button>See result <FontAwesomeIcon icon="chevron-circle-right"/></Button>
-                                    {/*https://github.com/EvaRoets/weather-app*/}
-                                    {/*https://affectionate-wilson-13a015.netlify.app/*/}
+                                <div className="card-button-container">
+                                    <div className="button">
+                                        <a href="https://github.com/EvaRoets/weather-app">
+                                            See code&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
+                                        </a>
+                                    </div>
+                                    <div className="button">
+                                        <a href="https://affectionate-wilson-13a015.netlify.app/">
+                                            See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
+                                        </a>
+                                    </div>
                                 </div>
                             </Card>
                             <Card id="project-two">
@@ -61,11 +67,17 @@ const Projects = () => {
                                         the card's content.
                                     </Card.Text>
                                 </Card.Body>
-                                <div className="card-button">
-                                    <Button>See code  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
-                                    <Button>See result  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
-                                    {/*https://github.com/EvaRoets/intro-react*/}
-                                    {/*https://competent-curie-7ba046.netlify.app/*/}
+                                <div className="card-button-container">
+                                    <div className="button">
+                                        <a href="https://github.com/EvaRoets/intro-react">
+                                            See code&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
+                                        </a>
+                                    </div>
+                                    <div className="button">
+                                        <a href="https://competent-curie-7ba046.netlify.app/">
+                                            See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
+                                        </a>
+                                    </div>
                                 </div>
                             </Card>
                             <Card id="project-three">
@@ -82,11 +94,17 @@ const Projects = () => {
                                         the card's content.
                                     </Card.Text>
                                 </Card.Body>
-                                <div className="card-button">
-                                    <Button>See code  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
-                                    <Button>See result  <FontAwesomeIcon icon="chevron-circle-right"/></Button>
-                                    {/*https://github.com/EvaRoets/order-form*/}
-
+                                <div className="card-button-container">
+                                    <div className="button">
+                                        <a href="https://github.com/EvaRoets/order-form">
+                                            See code&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
+                                        </a>
+                                    </div>
+                                    <div className="button">
+                                        <a href="https://gifted-nightingale-ba0961.netlify.app/">
+                                            See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
+                                        </a>
+                                    </div>
                                 </div>
                             </Card>
                         </div>

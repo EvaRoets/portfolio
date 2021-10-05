@@ -16,7 +16,6 @@ h2 {
     padding: 5px 25px 25px 25px;
     color: #79B4B7;
 }
-
 .containerIcon {
     padding: 120px 0 0 0;
 }
@@ -27,25 +26,34 @@ a {
 a:hover {
     color: #FF5C58;
 }
-
 p{
    color: #79B4B7;
 }
 
-button {
-    background: #FF5C58 !important;
+.button {
+    background: #FF5C58;
     margin: 5px;
-    color: #FCD2D1 !important;;
+    color: #FCD2D1;
     padding: 15px;
-    border-top: 8px #79B4B7 !important;
-    border-right: 8px #79B4B7 !important;
-    border-left: 8px #79B4B7 !important;
-    border-bottom: double 8px #79B4B7 !important;
-    border-radius: 30% 50% !important;
+    border-top: 8px #79B4B7;
+    border-right: 8px #79B4B7;
+    border-left: 8px #79B4B7;
+    border-bottom: double 8px #79B4B7;
+    border-radius: 30% 50%;
+    width: 60%;
 }
-button:hover {
+
+.button:hover {
     transform: scale(1.1);
 }
+
+.button a:hover {
+    color: #FCD2D1;
+}
+
+
+
+
 /*TODO: fix active effect*/
 button:active {
     transform: scale(1.1);
@@ -67,7 +75,6 @@ button:active {
     padding-bottom: 20px;
     border-bottom: #FF5C58 5px double;
     border-radius: 30% 50% !important;
-
 }
 
 
@@ -153,7 +160,7 @@ h3{
     padding: 8px 0;
     color: #F8F0DF;
 }
-.card-button {
+.card-button-container {
     display: flex;
     text-align: left;
     align-items: flex-start;
