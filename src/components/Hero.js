@@ -27,13 +27,15 @@ const Hero = () => {
                                         ]}
                                     />
                                 </h3>
+                                {/*TODO: add html for additional styling: keywords in red, linebreaks so text keeps running in one go*/}
                                 <p>
                                     <Typical
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "Ambitious junior web developer 💻",
+                                            "Ambitious junior web developer",
                                             90000,
+
                                         ]}
                                     />
                                 </p>
@@ -42,7 +44,7 @@ const Hero = () => {
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "Passionate about front-end design 🖌️",
+                                            "Passionate about front-end design",
                                             8000,
                                         ]}
                                     />
@@ -62,7 +64,7 @@ const Hero = () => {
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "research, communication 💬 and digital marketing",
+                                            "research, communication and digital marketing",
                                             6000,
                                         ]}
                                     />
@@ -72,7 +74,7 @@ const Hero = () => {
                                         loop={Infinity}
                                         wrapper="b"
                                         steps={[
-                                            "mainly in tech and biomedical industries. 🔬",
+                                            "mainly in tech and biomedical industries.",
                                             5000,
                                         ]}
                                     />

@@ -1,3 +1,5 @@
+/*TODO add cursor image*/
+/*TODO make company icon dynamic with gif*/
 /*____________________GENERAL____________________*/
 body, html {
     display: grid;
@@ -10,26 +12,24 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 h2 {
     padding: 5px 25px 25px 25px;
     color: #79B4B7;
 }
-
+h2:hover{
+    text-decoration: underline dotted;
+}
 .containerIcon {
     padding: 120px 0 0 0;
 }
-
 a {
     text-decoration: none;
     color: #FCD2D1;
 }
-
 a:hover {
     color: #FF5C58;
 
 }
-
 button {
     background: #FF5C58 !important;
     border-color: #79B4B7 !important;
@@ -39,29 +39,24 @@ button {
     padding: 15px;
 
 }
-
 button:hover {
     border: 2px #FF5C58 !important;
     transform: scale(1.1);
 }
-
 /*TODO: fix active effect*/
 button:active {
     border: 2px double #FF5C58 !important;
     transform: scale(1.1);
 }
-
 /*____________________NAVBAR/HEADER____________________*/
 .navbar-brand {
     color: #79B4B7 !important;
 }
-
 .nav-link {
     color: #79B4B7 !important;
 }
-
-/*TODO: fix hover link*/
-nav-link:hover {
+/*TODO: add padding between text and underline*/
+.nav-link:hover {
     text-decoration: underline double #FF5C58;
 }
 
@@ -72,25 +67,29 @@ nav-link:hover {
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
     padding: 100px 0;
     background: #79B4B7;
     border-radius: 30% 62%;
     margin-top: 20px;
-    align-items: baseline;
 }
 
+.hero:hover{
+    transform: scale(0.9);
+
+}
 .profile-picture {
     border: double 10px #FF5C58;
 }
-
 .profile-picture:hover {
-    transform: scale(1.1);
+    transform: rotate(-0.1turn);
 }
-
 .hero-text {
     text-align: left;
     color: #F8F0DF;
+}
+h3{
+    padding-bottom:15px;
 }
 
 /*____________________PROJECTS____________________*/
@@ -100,8 +99,8 @@ nav-link:hover {
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
+    margin-top: 50px;
 }
-
 .card {
     background-color: #79B4B7;
     margin: 15px;
@@ -109,34 +108,31 @@ nav-link:hover {
     padding: 50px 25px;
     min-width: 300px;
 }
-
+.card:hover{
+    transform: rotate(10deg)
+}
 .card-title {
     color: #F8F0DF !important;
     text-align: right;
 
 }
-
 .card-badge-container {
     text-align: right;
 }
-
 .card-badge {
     margin: 0 2px;
     background: #F8F0DF;
     color: #79B4B7;
     border-radius: 30% 50% !important;
 }
-
 .card-img-top {
     width: 300px;
     margin: 15px 0;
 }
-
 .card-text {
     text-align: right;
     padding: 8px 0;
 }
-
 .card-button {
     display: flex;
     align-items: baseline;
@@ -147,12 +143,11 @@ nav-link:hover {
 
 /*____________________SKILLS____________________*/
 .skills {
-    padding: 60px 0 30px 55px;
+    padding: 100px 0 50px 75px;
     background: #79B4B7;
     border-radius: 30% 62%;
     margin-top: 50px;
 }
-
 .skills-badge-pebble1 {
     font-size: 12px;
     margin: 0 2px;
@@ -170,7 +165,7 @@ nav-link:hover {
     border-radius: 50% 30% !important;
 }
 .skills-badge-premium {
-    font-size: 12px;
+    font-size: 16px;
     margin: 0 2px;
     padding: 8px;
     background: #F8F0DF;
@@ -178,7 +173,7 @@ nav-link:hover {
     border-radius: 50% 30% !important;
 }
 .skills-badge-top {
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px;
     margin: 0 2px;
     background: #F8F0DF;
@@ -186,7 +181,7 @@ nav-link:hover {
     border-radius: 30% 50% !important;
 }
 .skills-badge-medium {
-    font-size: 14px;
+    font-size: 20px;
     padding: 10px;
     margin: 0 3px;
     background: #F8F0DF;
@@ -194,8 +189,7 @@ nav-link:hover {
     border-radius: 50% 30% !important;
 }
 .skills-badge-basic {
-    align-items: self-end;
-    font-size: 14px;
+    font-size: 20px;
     padding: 10px;
     margin: 0 4px;
     background: #F8F0DF;
@@ -203,31 +197,29 @@ nav-link:hover {
     border-radius: 30% 50% !important;
 }
 .skills-badge-pebble1:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
 }
-
 .skills-badge-pebble2:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
 }
-
 .skills-badge-premium:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
     color: #FF5C58;
 }
 .skills-badge-top:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
     color: #FF5C58;
 }
 .skills-badge-medium:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
     color: #FF5C58;
 }
 .skills-badge-basic:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
     color: #FF5C58;
 }
 .skills-badge-premium:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
     color: #FF5C58;
 }
 
@@ -246,31 +238,25 @@ nav-link:hover {
     align-content: flex-start;
     justify-content: space-around;
 }
-
 .contact-text {
     text-align: justify;
 }
-
 .contact-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .contact-details {
     text-align: justify;
 }
-
 .copy-email {
     border: none;
     background-color: white;
 }
-
 .contact-icon {
     color: #FF5C58;
     margin-right: 10px;
 }
-
 
 /*____________________FOOTER____________________*/
 .footer-container {
@@ -286,8 +272,7 @@ nav-link:hover {
 }
 
 
-/*TODO add cursor image*/
-/*TODO make company icon dynamic with gif*/
+
 
 
 
