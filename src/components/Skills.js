@@ -24,7 +24,6 @@ const Skills = () => {
                         </div>
                         <Col md={{span: 8, offset: 2}} className="text-center">
                             <div className="skills">
-
                                 <h6>
                                     <Badge className="skills-badge-premium" bg="muted">PhotoShop</Badge>
                                     <Badge className="skills-badge-top" bg="muted">GIT</Badge>

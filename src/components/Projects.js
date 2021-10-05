@@ -23,6 +23,7 @@ const Projects = () => {
                             </p>
                         </div>
                         <div className="projects-gallery">
+                            {/*TODO: add bootstrap popover with picture*/}
                             <Card id="project-one">
                                 <Card.Body>
                                     <Card.Title>A Weather App</Card.Title>
