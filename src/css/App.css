@@ -172,6 +172,46 @@ p{
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+.card-button-top {
+    background: #FF5C58;
+    margin: 5px 5px 5px 55px;
+    color: #FCD2D1;
+    padding: 15px;
+    text-align: center;
+    border-top: 8px #79B4B7;
+    border-right: 8px #79B4B7;
+    border-left: 8px #79B4B7;
+    border-bottom: double 8px #79B4B7;
+    border-radius: 30% 50%;
+    width: 60%;
+}
+.card-button-bottom {
+    background: #FF5C58;
+    margin: 5px;
+    color: #FCD2D1;
+    padding: 15px;
+    text-align: center;
+    border-top: 8px #79B4B7;
+    border-right: 8px #79B4B7;
+    border-left: 8px #79B4B7;
+    border-bottom: double 8px #79B4B7;
+    border-radius: 30% 50%;
+    width: 60%;
+}
+.card-button-top:hover {
+    transform: scale(1.1);
+}
+.card-button-top a:hover {
+    color: #FCD2D1;
+}
+.card-button-bottom:hover {
+    transform: scale(1.1);
+}
+.card-button-bottom a:hover {
+    color: #FCD2D1;
+}
+
+
 
 /*____________________SKILLS____________________*/
 .skills {

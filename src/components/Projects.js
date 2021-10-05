@@ -40,12 +40,12 @@ const Projects = () => {
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button-container">
-                                    <div className="button">
+                                    <div className="card-button-top">
                                         <a href="https://github.com/EvaRoets/weather-app">
                                             See code&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
                                     </div>
-                                    <div className="button">
+                                    <div className="card-button-bottom">
                                         <a href="https://affectionate-wilson-13a015.netlify.app/">
                                             See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
@@ -68,12 +68,12 @@ const Projects = () => {
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button-container">
-                                    <div className="button">
+                                    <div className="card-button-top">
                                         <a href="https://github.com/EvaRoets/intro-react">
                                             See code&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
                                     </div>
-                                    <div className="button">
+                                    <div className="card-button-bottom">
                                         <a href="https://competent-curie-7ba046.netlify.app/">
                                             See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
@@ -95,12 +95,12 @@ const Projects = () => {
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button-container">
-                                    <div className="button">
+                                    <div className="card-button-top">
                                         <a href="https://github.com/EvaRoets/order-form">
                                             See code&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
                                     </div>
-                                    <div className="button">
+                                    <div className="card-button-bottom">
                                         <a href="https://gifted-nightingale-ba0961.netlify.app/">
                                             See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
