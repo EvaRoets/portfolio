@@ -10,31 +10,21 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 h2 {
-    padding: 25px;
+    padding: 5px 25px 25px 25px;
     color: #79B4B7;
 }
-
-
 .containerIcon {
     padding: 120px 0 0 0;
 }
-
-hr {
-    margin: 20px 0 25px 0;
-}
-
 a {
     text-decoration: none;
     color: #FCD2D1;
 }
-
 a:hover {
     color: #FF5C58;
 
 }
-
 button {
     background: #FF5C58 !important;
     border-color:#79B4B7!important;
@@ -44,12 +34,10 @@ button {
     padding: 15px;
 
 }
-
 button:hover{
     border: 2px #FF5C58 !important;
     transform: scale(1.1);
 }
-
 /*TODO: fix active effect*/
 button:active{
     border: 2px double #FF5C58 !important;
@@ -60,16 +48,13 @@ button:active{
 .navbar-brand {
     color: #79B4B7 !important;
 }
-
 .nav-link {
     color: #79B4B7 !important;
 }
-
 /*TODO: fix hover link*/
 nav-link:hover {
     text-decoration: underline double #FF5C58;
 }
-
 
 /*____________________HERO____________________*/
 .hero {
@@ -85,15 +70,12 @@ nav-link:hover {
     margin-top: 20px;
     align-items: baseline;
 }
-
 .profile-picture {
     border: double 10px #FF5C58;
 }
-
 .profile-picture:hover {
     transform: scale(1.1);
 }
-
 .hero-text {
     text-align: left;
     color: #F8F0DF;
@@ -107,44 +89,35 @@ nav-link:hover {
     align-content: center;
     align-items: center;
 }
-
 .card {
     background-color: #79B4B7;
     margin: 15px;
     border-radius: 62% 30%;
     padding: 50px 25px;
-
+    min-width: 300px;
 }
-
 .card-title {
     color: #F8F0DF !important;
     text-align: right;
 
 }
-
-.card-badge {
+.card-badge-container {
     text-align: right;
 }
-
-.badge {
+.card-badge {
     margin: 0 2px;
     background: #F8F0DF;
     color: #79B4B7;
     border-radius: 30% 50%!important;
-
 }
-
 .card-img-top {
     width: 300px;
     margin: 15px 0;
 }
-
 .card-text {
     text-align: right;
     padding: 8px 0;
 }
-
-
 .card-button {
     display: flex;
     align-items: baseline;
@@ -153,8 +126,62 @@ nav-link:hover {
     text-align: left;
 }
 
-
 /*____________________SKILLS____________________*/
+.skills{
+    padding: 30px 0;
+    background: #79B4B7;
+    border-radius: 30% 62%;
+    margin-top: 20px;
+    align-items: baseline;
+}
+
+skills-badge-pebble{
+    font-size: 12px;
+    margin: 0 2px;
+    padding: 5px;
+    background: #F8F0DF;
+    color: #79B4B7;
+    border-radius: 50% 30%!important;
+
+}
+
+.skills-badge-premium{
+    font-size: 12px;
+    margin: 0 2px;
+    padding: 8px;
+    background: #F8F0DF;
+    color: #79B4B7;
+    border-radius: 50% 30%!important;
+}
+.skills-badge-top{
+    /*align-items: self-end;*/
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 5px;
+    background: #F8F0DF;
+    color: #79B4B7;
+    border-radius: 30% 50%!important;
+}
+.skills-badge-medium{
+    align-items: self-end;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 5px;
+    background: #F8F0DF;
+    color: #79B4B7;
+    border-radius: 50% 30%!important;
+}
+.skills-badge-basic{
+    align-items: self-end;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 5px;
+    background: #F8F0DF;
+    color: #79B4B7;
+    border-radius: 30% 50%!important;
+
+}
+
 /*____________________ABOUT____________________*/
 .about-text {
     text-align: justify;

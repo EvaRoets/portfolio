@@ -11,8 +11,7 @@ const Hero = () => {
         <>
             <Container fluid="lg" className="hero-container">
                 <Row className="justify-content-sm-center-center">
-                    <Col md={{span: 10, offset: 1}} className="text-center">
-                        <div className="hero">
+                    <Col md={{span: 10, offset: 1}} className="hero">
                             <div className="hero-image">
                                 <Image className="profile-picture" src={HeroImage} alt="profile-picture" roundedCircle
                                        fluid width="250px"/>
@@ -79,7 +78,6 @@ const Hero = () => {
                                     />
                                 </p>
                             </div>
-                        </div>
                     </Col>
                 </Row>
             </Container>
