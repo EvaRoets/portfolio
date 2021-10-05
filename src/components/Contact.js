@@ -30,13 +30,13 @@ const Contact = () => {
                                 <div className="contact-mobile">
                                     <a href="tel:+32493140480" data-toggle="tooltip"
                                        data-placement="right" title="+32 493 14 04 80">
-                                        <FontAwesomeIcon icon="mobile-alt" size="2x" className="contact-icon"/>
+                                        <FontAwesomeIcon icon="mobile-alt" size="4x" className="contact-icon"/>
                                     </a>
                                 </div>
                                 <div className="contact-email">
                                     <a href="mailto:eva_roets@hotmail" data-toggle="tooltip"
                                        data-placement="right" title="eva_roets@hotmail">
-                                        <FontAwesomeIcon icon={['far', 'envelope-open']} size="2x"
+                                        <FontAwesomeIcon icon={['far', 'envelope-open']} size="4x"
                                                          className="contact-icon"/>
                                     </a>
                                 </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                                     <a href="https://www.linkedin.com/in/evaroets/" data-toggle="tooltip"
                                        data-placement="right" title="https://www.linkedin.com/in/evaroets/"
                                        target="_blank" rel="noreferrer">
-                                        <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x"
+                                        <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="4x"
                                                          className="contact-icon"/>
                                     </a>
                                 </div>
@@ -53,7 +53,7 @@ const Contact = () => {
                                     <a href="https://github.com/EvaRoets" data-toggle="tooltip"
                                        data-placement="right" title="https://github.com/EvaRoets"
                                        target="_blank" rel="noreferrer">
-                                        <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="contact-icon"/>
+                                        <FontAwesomeIcon icon={['fab', 'github']} size="4x" className="contact-icon"/>
                                     </a>
                                 </div>
                             </div>

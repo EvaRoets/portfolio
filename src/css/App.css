@@ -42,8 +42,6 @@ button {
     border-left: 8px #79B4B7 !important;
     border-bottom: double 8px #79B4B7 !important;
     border-radius: 30% 50% !important;
-
-
 }
 button:hover {
     transform: scale(1.1);
@@ -253,7 +251,7 @@ h3{
 /*____________________CONTACT____________________*/
 .contact {
     display: flex;
-    align-content: space-around;
+    align-content: flex-start;
     justify-content: space-evenly;
     padding: 70px 0 50px 75px;
     background: #79B4B7;
@@ -261,8 +259,6 @@ h3{
     margin-top: 50px;
     color: #F8F0DF;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
 
 }
 .contact-text {
@@ -283,11 +279,20 @@ h3{
 }
 
 .contact-icon {
-    /*background: #FF5C58 !important;*/
-    /*border: double 8px #79B4B7 !important;*/
-    /*margin: 5px;*/
-    /*color: #FCD2D1 !important;;*/
-    /*border-radius: 30% 50% !important;*/
+    background: #FF5C58;
+    margin: 50px;
+    color: #FCD2D1;
+    border-top: solid 5px #79B4B7;
+    border-right: solid 5px #79B4B7;
+    border-left: solid 5px #79B4B7;
+    border-bottom: double 8px #79B4B7;
+    border-radius: 30% 50%;
+    min-width: 100px;
+    min-height: 50px;
+    padding: 10px;
+}
+.contact-icon:hover{
+    transform: scale(1.1);
 }
 
 /*____________________FOOTER____________________*/
