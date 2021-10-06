@@ -1,5 +1,10 @@
 import React from "react"
+
+
+// import styling
 import './css/App.css';
+import './css/fonts/CaviarDreams/CaviarDreams.ttf';
+
 
 // import components
 import Header from "./components/Header";

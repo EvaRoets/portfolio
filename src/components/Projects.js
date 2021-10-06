@@ -2,7 +2,7 @@ import React from "react";
 import GoToTop from "./GoToTop";
 
 // import Bootstrap elements
-import {Container, Row, Col, Card, Button, Badge} from "react-bootstrap";
+import {Container, Row, Col, Card, Badge} from "react-bootstrap";
 
 // import fontawesome icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -101,7 +101,7 @@ const Projects = () => {
                                         </a>
                                     </div>
                                     <div className="card-button-bottom">
-                                        <a href="https://gifted-nightingale-ba0961.netlify.app/">
+                                        <a href="https://eva-roets-order-form.herokuapp.com//">
                                             See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
                                     </div>
