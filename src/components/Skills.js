@@ -23,7 +23,6 @@ const Skills = () => {
                                 further.</p>
                         </div>
                         <Col md={{span: 8, offset: 2}} className="text-center">
-                            {/*TODO: add link to resume*/}
                             <div className="skills">
                                 <h6>
                                     <Badge className="skills-badge-premium" bg="muted">PhotoShop</Badge>
@@ -45,7 +44,7 @@ const Skills = () => {
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <Badge className="skills-badge-resume" bg="muted">
                                         <div className="skills-button">
-                                            <a href="#about">
+                                            <a href="../css/documents/CV_Eva_ROETS_2021_English.pdf" target="_blank" rel="noopener">
                                                 Resume &nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                             </a>
                                         </div>
