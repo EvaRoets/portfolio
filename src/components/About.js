@@ -32,7 +32,7 @@ const About = () => {
                             <p>What else do you absolutely need to know about me? When I'm not <i>D&D'ing</i> (designing
                                 and developing, duh), I enjoy spending time outside - either while travelling (even
                                 more) or sniffing up that fresh nature air. I'm also very fond of chasing away my feline
-                                four-legged friends with some singing. And since I'm a avid learner of just about
+                                four-legged friends with some singing. And since I'm an avid learner of just about
                                 anything, you can find me enrolled in one too many courses I was, of course, just about to
                                 start (I promise!).
                             </p>

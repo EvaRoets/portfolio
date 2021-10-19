@@ -96,12 +96,12 @@ const Projects = () => {
                                 </Card.Body>
                                 <div className="card-button-container">
                                     <div className="card-button-top">
-                                        <a href="https://github.com/EvaRoets/order-form">
+                                        <a href="https://github.com/EvaRoets/end-with-a-bang">
                                             See code&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
                                     </div>
                                     <div className="card-button-bottom">
-                                        <a href="https://eva-roets-order-form.herokuapp.com//">
+                                        <a href="https://wizardly-almeida-49c84a.netlify.app/">
                                             See result&nbsp;<FontAwesomeIcon icon="chevron-circle-right"/>
                                         </a>
                                     </div>
