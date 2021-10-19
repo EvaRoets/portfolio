@@ -35,8 +35,7 @@ const Projects = () => {
                                         </h6>
                                     </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        A project targeted at aggregating and parsing API fetched data, DOM manipulation and responsiveness, with an added frosted glass effect.
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button-container">
@@ -63,8 +62,8 @@ const Projects = () => {
                                         </h6>
                                     </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        An introduction project into React, exploring a live server and basic hooks for
+                                        managing state and reactivity.
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button-container">
@@ -86,12 +85,14 @@ const Projects = () => {
                                     <div className="card-badge-container">
                                         <h6>
                                             <Badge className="card-badge" bg="muted">CSS</Badge>
-                                            <Badge className="card-badge" bg="muted">JavaScript</Badge>
+                                            <Badge className="card-badge" bg="muted">JS</Badge>
                                         </h6>
                                     </div>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        A team project focussed on JS and GIT best practices and animations, resulting
+                                        in an arcade gaming platform with <i>Brick Breaker</i>, <i>Connect
+                                        Four</i>, <i>Hangman</i>,<i>Snake</i> and
+                                        <i>Space Invaders</i>.
                                     </Card.Text>
                                 </Card.Body>
                                 <div className="card-button-container">
