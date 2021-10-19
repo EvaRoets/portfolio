@@ -82,11 +82,11 @@ const Projects = () => {
                             </Card>
                             <Card id="project-three">
                                 <Card.Body>
-                                    <Card.Title>An order form</Card.Title>
+                                    <Card.Title>An Arcade</Card.Title>
                                     <div className="card-badge-container">
                                         <h6>
                                             <Badge className="card-badge" bg="muted">CSS</Badge>
-                                            <Badge className="card-badge" bg="muted">PHP</Badge>
+                                            <Badge className="card-badge" bg="muted">JavaScript</Badge>
                                         </h6>
                                     </div>
                                     <Card.Text>
